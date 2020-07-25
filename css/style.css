@@ -110,23 +110,28 @@ p{
 .userName{
     margin-right: 10px;
 }
+.userIcon img{
+    border: 2px solid;
+    border-radius: 50%;
+}
 .userName p{
     margin-bottom: 0;
 }
 .drpdwn{
     margin-right: 15px;
+    margin-left: 10px;
     position: relative;
 }
-.drpdwn i{
-    position: absolute;
-    top: 5px;
-    left: 5px;
+.user i{
+    font-size: 20px;
     font-weight: 500;
 }
 select.country{
-    padding: 5px 8px 5px 20px;
-    border-radius: 5px;
-    border-color: lightgray;
+    padding: 5px 5px 5px 5px;
+    border: none;
+}
+select.country:focus{
+    outline: none;
 }
 .rightWrapperInner{
     padding: 20px 20px 30px 20px;
@@ -137,7 +142,27 @@ select.country{
 .tabLinksSection{
     flex-basis: 10%;
     height: auto;
+    position: relative;
+    text-align: center;
 }
+.tabLinksSection .logo{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    right: 0;
+    color: #000;
+    z-index: 999;
+    font-size: 28px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff
+}
+
 .tabContentSection{
     flex-basis: 85%;
     margin-left: 25px;
@@ -146,7 +171,7 @@ ul.tabs{
     margin: 0px;
     padding: 0px;
     border-radius: 25px;
-    padding: 20px 0px 20px 20px;
+    padding: 80px 0px 20px 20px;
     text-align: center;
     background-color: #000;
     
@@ -480,6 +505,9 @@ tr:hover td{
     }
     .rightWrapperInner{
         margin-top: 0;
+    }
+    .tabLinksSection .logo{
+        display: none;
     }
     ul.tabs{
         padding: 15px 0px 0px 0px;
