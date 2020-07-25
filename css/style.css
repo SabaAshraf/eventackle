@@ -267,7 +267,9 @@ ul.tabs li.current i{
     color: #000;
     border: 2px solid #000;
 } 
-
+.viewDetails:focus{
+    outline: none;
+}
 .trendingBlogSection .header{
     padding-left: 20px;
 }
