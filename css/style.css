@@ -96,6 +96,9 @@ select{
 .leftWrapper{
     flex-basis: 72%;
 }
+.leftwrapperInner{
+    padding-bottom: 20px;
+}
 .rightWrapper{
     flex-basis: 28%;
     position: relative;
@@ -572,9 +575,7 @@ tr:hover td{
     .d-sm-block{
         display: block;
     }
-    .leftwrapperInner{
-        padding-bottom: 20px;
-    }
+    
     .aboutImage{
         margin-top: 20px;
     }
