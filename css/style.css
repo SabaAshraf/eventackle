@@ -56,6 +56,9 @@ p{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+select{
+    background-color: transparent;
+}
 .text-center{
     text-align: center;
 }
