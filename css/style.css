@@ -249,7 +249,7 @@ ul.tabs li.current i{
 .viewDetails{
     padding: 15px;
     border-radius: 8px;
-    border: none;
+    border: 2px solid;
     background-color: #000;
     color: #fff;
     font-size: 16px;
@@ -569,6 +569,9 @@ tr:hover td{
     }
     .d-sm-block{
         display: block;
+    }
+    .leftwrapperInner{
+        padding-bottom: 20px;
     }
     .aboutImage{
         margin-top: 20px;
